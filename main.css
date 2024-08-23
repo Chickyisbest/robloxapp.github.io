@@ -1,0 +1,176 @@
+.main-title {
+    color: lightgoldenrodyellow;
+    font-size: 36px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    margin-top: 0px;
+}
+
+
+.translation {
+    color: yellow;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim1 {
+    from {
+        transform: translateX(50px);
+    }
+
+    to {
+        transform: translateX(50px);
+    }
+}
+
+.color {
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+
+    animation-name: anim2;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim2 {
+    0% {
+        color: lightseagreen;
+    }
+
+    25% {
+        color: magenta;
+    }
+
+    50% {
+        color: orange;
+    }
+
+    75% {
+        color: orangered;
+    }
+
+    100% {
+        color: royalblue;
+    }
+}
+
+
+.main-content {
+    margin-top: 50px;              
+}
+
+.main-container {
+    width: 100%;
+}
+
+.sidebar-left {
+    width: 15%;
+    height: 500px;
+    background-color:red;
+    float: left;
+}
+
+.mid-section {
+    width: 70%;
+    height: 500px;
+    background-color:ghostwhite;
+    float: left;
+}
+
+.sidebar-right {
+    width: 15%;
+    height: 500px;
+    background-color:red;
+    float: right;
+}
+
+.sidebar-left img {
+    width: 100%;
+}
+
+.sidebar-left header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+}
+
+.sidebar-right img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sidebar-right header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+}
+
+.button1 {
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: darkgoldenrod;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.button2 {
+    margin: auto;
+    display: block;
+    background-color: darkgreen;
+    color: black;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.button1:hover {
+    background-color: darkgoldenrod;
+    color: firebrick;
+    font-size: 18px;
+}
+
+.button2:hover {
+    background-color: darkblue;
+    font-size: 18px;
+}
+
+table {
+    width: 55%;
+    display: block;
+    margin: auto;
+}
+
+table img {
+    display: block;
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
